@@ -1,6 +1,6 @@
-# TEXT TO UPPERCASE CONVERTER 
-# DESCRIPTION= A SIMPLE WEB INTERFACE BUILT WITH GRADIO THAT CONVERT USER INPUT TEXT TO UPPERCASE 
-#CREATED BY OJASWIE KUMAR SANWARIYA  
+# Text To Uppercase Converter 
+# Description= A Simple Web Interface Built With Gradio That Convert User Input Text To Uppercase 
+#Created By Ojaswie Kumar Sanwariya  
 import gradio as gr
 
 def shout(text):
@@ -8,4 +8,4 @@ def shout(text):
 
 demo= gr.Interface(fn=shout, inputs="textbox", outputs="textbox")
 
-demo.launch(share=True)
+demo.launch()
