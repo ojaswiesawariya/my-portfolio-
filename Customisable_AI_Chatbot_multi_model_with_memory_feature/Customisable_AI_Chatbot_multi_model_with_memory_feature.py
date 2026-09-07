@@ -1,7 +1,8 @@
-# ai chatbot running locally with memory feature and multi model selection
-# Description= A Chatbot Runing Locally, Built With Llama3.2, Deepseek-R1:1.5B And Gradio. Also Have Feature To Store Conversation History And It Has 2 Model You Can Select Any
+# Ai chatbot running locally with memory feature and multi model selection
+# Description= a chatbot running locally, built with llama3.2, deepseek-r1:1.5b and gradio. also have feature to store conversation history and it has 2 model you can select any
+# You can also change llm by your choice by downloading through ollama for changing llm see readme.md file
+#Created by ojaswie kumar sanwariya
 
-#Created By Ojaswie Kumar Sanwariya
 
 import gradio as gr
 from openai import OpenAI
@@ -27,4 +28,4 @@ def chat_with_multiple_model(message, history, model_choice):
 model_dropdown= gr.Dropdown(choices=["llama3.2", "deepseek-r1:1.5b"],value="llama3.2", label= "Choose your AI brain")
 
 gr.ChatInterface(fn=chat_with_multiple_model,additional_inputs=[model_dropdown],additional_inputs_accordion=gr.Accordion(label=" Select Model", open=False),
-title= "  AI Multi chatbot" ).launch()
+title= "AI Multi Chatbot" ).launch()
