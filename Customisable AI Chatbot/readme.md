@@ -1,4 +1,4 @@
-**Customizable Local AI Chatbot**
+**Customisable Local AI Chatbot**
 
 A local web interface for interacting with Large Language Models (LLMs) using Gradio and Ollama.
 
