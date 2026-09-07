@@ -14,7 +14,7 @@ A local web interface for interacting with Large Language Models (LLMs), featuri
 
 **Usage**
 Run the script to launch the Gradio interface locally:
-`python app.py`
+`python Customisable_AI_Chatbot_with_memory_feature.py`
 
 How to Change the LLM
 
