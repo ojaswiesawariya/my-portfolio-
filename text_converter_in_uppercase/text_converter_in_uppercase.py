@@ -1,6 +1,6 @@
-# Text To Uppercase Converter 
-# Description= A Simple Web Interface Built With Gradio That Convert User Input Text To Uppercase 
-#Created By Ojaswie Kumar Sanwariya  
+# Text to uppercase converter 
+# Description= a simple web interface built with gradio that convert user input text to uppercase 
+# Created by Ojaswie Kumar Sanwariya  
 import gradio as gr
 
 def shout(text):
