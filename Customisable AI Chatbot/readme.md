@@ -14,7 +14,7 @@ A local web interface for interacting with Large Language Models (LLMs) using Gr
 
 **Usage**
 Run the script to launch the Gradio interface:
-`python Customisable_AI_Chabbot.py`
+`python Customisable_AI_Chatbot.py`
 
 **How to Change the LLM**
 1. Open your terminal and download a new model using Ollama (e.g., `ollama pull mistral`).
