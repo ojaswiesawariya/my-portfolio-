@@ -1,7 +1,8 @@
-# AI Chatbot running locally
-# Description=This Chatbot Running Locally In System Built With Llama3.2 And Gradio
-# You Can Also Change Llm By Your Choice By Downloading Through Ollama For Changing Llm See Readme.Md File  
-#Created By Ojaswie Kumar Sanwariya 
+# Ai chatbot running locally
+# Description=this chatbot running locally in system built with llama3.2 and gradio
+# You can also change LLM by your choice by downloading through Ollama for changing llm see readme.md file  
+#Created by Ojaswie Kumar Sanwariya 
+
 import gradio as gr
 from openai import OpenAI
 
@@ -17,6 +18,6 @@ def ask_llama(prompt):
             result+=chunk.choices[0].delta.content
             yield result
 
-view = gr.Interface(fn=ask_llama, title = "Ai chatbot",inputs=gr.Textbox(label="Talk to your chatbot",info= "How can I help you",lines=5),
-outputs =gr.Markdown(label="chatbot Response"),examples= ["Who invented the lightbulb?"],)
+view = gr.Interface(fn=ask_llama, title = "AI Chatbot",inputs=gr.Textbox(label="Talk to your chatbot",info= "How can I help you?",lines=5),
+outputs =gr.Markdown(label="Chatbot Response"),examples= ["Who invented the lightbulb?"],)
 view.launch()
