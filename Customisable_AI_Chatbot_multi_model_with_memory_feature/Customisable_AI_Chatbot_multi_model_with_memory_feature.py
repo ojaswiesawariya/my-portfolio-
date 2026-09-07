@@ -1,7 +1,7 @@
 # Ai chatbot running locally with memory feature and multi model selection
 # Description= a chatbot running locally, built with llama3.2, deepseek-r1:1.5b and gradio. also have feature to store conversation history and it has 2 model you can select any
 # You can also change llm by your choice by downloading through ollama for changing llm see readme.md file
-#Created by ojaswie kumar sanwariya
+#Created by Ojaswie Kumar Sanwariya
 
 
 import gradio as gr
