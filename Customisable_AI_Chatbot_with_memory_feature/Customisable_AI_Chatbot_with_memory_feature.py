@@ -1,6 +1,8 @@
-# AI CHATBOT RUNING LOCALLY WITH MEMORY FEATURE 
-# DESCRIPTION= A CHATBOT RUNNING LOCALLY, BUILT WITH llama3.2 AND GRADIO. ALSO HAVE FEATURE TO STORE CONVERSATION HISTORY
-#CREATED BY OJASWIE KUMAR SANWARIYA
+# Ai Chatbot Running Locally With Memory Feature 
+# Description= A Chatbot Running Locally, Built With Llama3.2 And Gradio. Also Have Feature To Store Conversation History
+# You Can Also Change LLM By Your Choice By Downloading Through Ollama For Changing LLM See readme.md File  
+# Created By Ojaswie Kumar Sanwariya 
+
 import gradio as gr
 from openai import OpenAI
 
