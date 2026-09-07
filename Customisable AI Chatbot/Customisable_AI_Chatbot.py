@@ -1,7 +1,7 @@
 # AI Chatbot running locally
-# DESCRIPTION=this Chatbot running locally in system built with Llama3.2 and gradio
-# You can also change LLM by your choice by downloading through Ollama for changing LLM see readme.md file  
-#CREATED BY OJASWIE KUMAR SANWARIYA 
+# Description=This Chatbot Running Locally In System Built With Llama3.2 And Gradio
+# You Can Also Change Llm By Your Choice By Downloading Through Ollama For Changing Llm See Readme.Md File  
+#Created By Ojaswie Kumar Sanwariya 
 import gradio as gr
 from openai import OpenAI
 
